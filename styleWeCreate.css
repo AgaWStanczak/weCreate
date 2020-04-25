@@ -19,17 +19,20 @@ nav a {
 	text-decoration: none;
 	text-transform: uppercase;
 	letter-spacing: 2px;
+	position: relative
 }
 
 h1 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 116px;
-	line-height: 8px;
+	line-height: 0;
+	margin-top: 160px;
 }
 
 .top {
 	font-family: 'Roboto', sans-serif;
 	font-size: 21px;
+	line-height: 0.9em;
 }
 
 .button {
@@ -41,4 +44,53 @@ h1 {
 	
 }
 
+footer {
+	height: 445px;
+	width: 100%;
+	background: linear-gradient(135deg, rgba(254,106,130,1) 0%, rgba(149,37,240,1) 100%);
+}
 
+.form {
+	width: 409px;
+	text-align: left;
+}
+
+input {
+	width: 409px;
+	font-size: 12px;
+	color: #440c74;
+	border: 0;
+	border-bottom: 1px solid #440c74;
+	background: none;
+}
+
+textarea {
+	width: 406px;
+	font-size: 12px;
+	color: #440c74;
+	border: 1px solid #440c74;
+	background: none;
+}
+
+.post {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	color: #fff;
+	padding: 8px 50px;
+	border: solid 1px #fff;
+	background: none;
+}
+
+.footer {
+	width: 400px;
+	float: left;
+	font-size: 63px;
+	font-family: 'Montserrat', sans-serif;
+	color: #440c74;
+	display: inline-block;
+	
+}
+
+.artic {
+	width: 409px;
+}
