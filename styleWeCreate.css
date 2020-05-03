@@ -87,10 +87,23 @@ textarea {
 	font-size: 63px;
 	font-family: 'Montserrat', sans-serif;
 	color: #440c74;
-	display: inline-block;
 	
 }
 
 .artic {
 	width: 409px;
+}
+
+.row {
+width: 820px;
+margin: auto;
+}
+
+.col-md-12 {
+	width: 820px;
+}
+
+.col-md-6 {
+	width: 409px;
+	float: left;
 }
