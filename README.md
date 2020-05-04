@@ -8,6 +8,6 @@ In near future I'll add some CSS animarions.
 
 Technoogies:
 -HTML
--CSS
+-CSS:
   -bootstrap 3.3
   -animations
