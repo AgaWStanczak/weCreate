@@ -13,14 +13,15 @@ body {
 }
 
 nav a {
-	font-size: 24px;
+	font-size: 14px;
 	font-family: 'Montserrat', sans-serif;
 	color: #440c74;
 	padding-left: 20px;
 	text-decoration: none;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	position: relative
+	position: relative;
+	top: 15px;
 }
 
 h1 {
@@ -28,12 +29,13 @@ h1 {
 	font-size: 116px;
 	line-height: 0;
 	margin-top: 160px;
+	letter-spacing: 4px;
 }
 
 .top {
 	font-family: 'Roboto', sans-serif;
 	font-size: 21px;
-	line-height: 0.9em;
+	line-height: 0.2em;
 }
 
 .button {
@@ -41,13 +43,14 @@ h1 {
 	font-size: 15px;
 	color: #5f1b98;
 	padding: 8px 16px;
-	border: solid 1px #c244c1;
-	
+	border: solid 2px #c244c1;
+	letter-spacing: 1px;
 }
 
 footer {
 	width: 100%;
 	background: linear-gradient(135deg, rgba(254,106,130,1) 0%, rgba(149,37,240,1) 100%);
+	height: 445px;
 }
 
 .form {
@@ -63,6 +66,10 @@ input {
 	border-bottom: 1px solid #440c74;
 	background: none;
 	margin-bottom: 10px;
+}
+
+label {
+	line-height: 2.5em;
 }
 
 textarea {
@@ -114,14 +121,91 @@ h4 {
 	font-size: 27px;
 	color:#440c74;
 	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 2px;
 }
 
 .lorem {
 	font-size: 12px;
 	font-family: 'Montserrat', sans-serif;
 	color:#440c74;
+	line-height: 1.3em;
 }
 
 form {
 	margin-top: 50px;
+	font-family: 'Montserrat', sans-serif;
+	color: #440c74;
+	font-size: 12px;
+}
+
+h2 {
+	font-size: 73px;
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	position: relative;
+	top: -150px;
+}
+
+article .crazy {
+	position: relative;
+	top: 150px;
+	z-index: -1;
+}
+
+footer .author {
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+#top {
+	width: 400px;
+	position: absolute;
+	top: 300px;
+	right: 0;
+}
+
+#middle {
+	width: 500px;
+	position: absolute;
+	top: 420px;
+	right: 0;
+}
+
+#bottom {
+	width: 400px;
+	position: absolute;
+	top: 1560px;
+	left: 0;
+}
+
+#one {
+	font-size: 247px;
+	color: #e579d7;
+	font-family: 'Montserrat', sans-serif;
+	position: absolute;
+	top: -260px;
+	left: 0;
+	z-index: -1;
+}
+
+#three {
+	font-size: 247px;
+	color: #e421b4;
+	font-family: 'Montserrat', sans-serif;
+	position: absolute;
+	top: -260px;
+	left: -50px;
+	z-index: -1;
+}
+
+#two {
+	font-size: 247px;
+	color: #fb8097;
+	font-family: 'Montserrat', sans-serif;
+	position: absolute;
+	top: -260px;
+	left: -40px;
+	z-index: -1;
 }
