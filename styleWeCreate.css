@@ -216,4 +216,5 @@ a:hover {
 
 .button:hover {
 	background-color: #fb8097;
+	transform: scale(1.2);
 }
