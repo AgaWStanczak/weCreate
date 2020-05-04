@@ -7,17 +7,17 @@ In near future I'll add RWD.
 
 
 Technoogies:
--HTML;
--CSS:
-  -bootstrap 3.3,
-  -animations,
-  -RWD
+HTML;
+CSS:
+  bootstrap 3.3,
+  animations,
+  RWD
 
 
 Demo https://agawstanczak.github.io/weCreate/wecreate.html
 
 
 Tools:
--Adobe Dreamweaver 2020,
--Chrome,
--Adobe Photoshop
+Adobe Dreamweaver 2020,
+Chrome,
+Adobe Photoshop
