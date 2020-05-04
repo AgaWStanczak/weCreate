@@ -1,9 +1,10 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <title>we create by Awwwesome</title>
 	<link href="normalize.css" rel="stylesheet">
+	<link rel="stylesheet" href="bootstrap-grid.css">
 	<link href="styleWeCreate.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:500|Roboto:300&display=swap" rel="stylesheet">
 </head>
@@ -19,34 +20,84 @@
 		</nav>
 		<h1>we create.</h1>
 		<p class="top">strategy is our first name</p>
+		<img id="top" src="img/wave-top2.svg" alt="top wave">
+		<img id="middle" src="img/wave-top.svg" alt="middle wave">
 	</div>
 	<article>
-			<div class="projects">
-				<h3>projects</h3>
-				<p>Af gastropub venmo cliche air plant meh. Mollit man bun nesciunt, commodo synth placeat forage tousled ad pitchfork tilde venmo iceland 3 wolf moon. Cray eu vape flexitarian. Next level DIY odio skateboard, listicle PBR&B shoreditch blog humblebrag cornhole. Blue bottle wayfarers mumblecore af heirloom cillum. Aliquip etsy irony veniam, do whatever vice air plant microdosing paleo wayfarers flannel celiac XOXO. Affogato mumblecore migas blue bottle dolor single-origin coffee.</p>
+		<div class="row">
+			<div class="col-md-1">
+				<p id="one">1.</p>
+			</div>
+			<div class="col-md-6">
+				<h4>projects</h4>
+				<p class="lorem">Af gastropub venmo cliche air plant meh. Mollit man bun nesciunt, commodo synth placeat forage tousled ad pitchfork tilde venmo iceland 3 wolf moon. Cray eu vape flexitarian. Next level DIY odio skateboard, listicle PBR&B shoreditch blog humblebrag cornhole. Blue bottle wayfarers mumblecore af heirloom cillum. Aliquip etsy irony veniam, do whatever vice air plant microdosing paleo wayfarers flannel celiac XOXO. Affogato mumblecore migas blue bottle dolor single-origin coffee.</p>
 				<button class="button">find out more</button>
+			</div>
+			<div class="col-md-1">
+			</div>
+			<div class="col-md-5">
 				<img class="artic" src="img/img1.jpg" alt="we create projects- street art">
 			</div>
-		<div class="companyCulture">
-			<img class="artic" src="img/img2.jpg" alt="we create company's culture">
-			<h3>company's culture</h3>
-			<p>Celiac venmo tilde, put a bird on it vinyl man braid etsy plaid fanny pack next level 3 wolf moon chia single-origin coffee organic. Chillwave activated charcoal cliche, hoodie 3 wolf moon fam pop-up tousled swag hammock wolf bushwick. Ugh blue bottle post-ironic blog williamsburg. Glossier godard disrupt hoodie leggings vexillologist crucifix, iceland truffaut. Microdosing fashion axe biodiesel poutine, waistcoat helvetica salvia meditation ramps twee.</p>
-			<button class="button">find out more</button>
 		</div>
-		<div class="middle">
+		<div class="row">
+			<div class="col-md-6">
+				<img class="artic" src="img/img2.jpg" alt="we create company's culture">
+			</div>
+			<div class="col-md-1">
+			</div>
+			<div class="col-md-5">
+				<p id="two">2.</p>
+				<h4>company's culture</h4>
+				<p class="lorem">Celiac venmo tilde, put a bird on it vinyl man braid etsy plaid fanny pack next level 3 wolf moon chia single-origin coffee organic. Chillwave activated charcoal cliche, hoodie 3 wolf moon fam pop-up tousled swag hammock wolf bushwick. Ugh blue bottle post-ironic blog williamsburg. Glossier godard disrupt hoodie leggings vexillologist crucifix, iceland truffaut. Microdosing fashion axe biodiesel poutine, waistcoat helvetica salvia meditation ramps twee.</p>
+				<button class="button">find out more</button>
+			</div>
+		</div>
+		<img class="crazy" src="img/fullbg1.jpg" alt="we create our creazy ideas">
+		<img id="bottom" src="img/wave-bottom.svg" alt="bottom wave">
+	<div class="row">
 		<h2>our crazy ideas</h2>
+
+	</div>
+	<div class="row">
+		<div class="col-md-1">
+			<p id="three">3.</p>
 		</div>
-		<div class="experience">
-			<h3>experience</h3>
-			<p>Everyday carry cray vegan microdosing waistcoat, godard portland gentrify viral vape hammock. Prism lyft cold-pressed, snackwave bespoke squid schlitz typewriter pinterest jean shorts. Kale chips pitchfork lumbersexual ugh, messenger bag forage kitsch cold-pressed cred cronut meggings umami. Gastropub ethical copper mug, authentic four loko chicharrones salvia fingerstache vaporware chia church-key hoodie single-origin coffee.</p>
+		<div class="col-md-5">
+			<h4>experience</h4>
+			<p class="lorem">Everyday carry cray vegan microdosing waistcoat, godard portland gentrify viral vape hammock. Prism lyft cold-pressed, snackwave bespoke squid schlitz typewriter pinterest jean shorts. Kale chips pitchfork lumbersexual ugh, messenger bag forage kitsch cold-pressed cred cronut meggings umami. Gastropub ethical copper mug, authentic four loko chicharrones salvia fingerstache vaporware chia church-key hoodie single-origin coffee.</p>
 			<button class="button">find out more</button>
+		</div>
+		<div class="col-md-6">
 			<img class="artic" src="img/img3.jpg" alt="we create experience">
 		</div>
+	</div>
 	</article>
 	<footer>
-	<h2 clas="footer">say hello to our team</h2>
-	<form>
-	</form>
+		<div class="row">
+			<div class="col-md-5">
+				<h3 class="footer">say hello<br> to our team</h3>
+				<p class="author">created by the awwwesomes in 2017</p>
+			</div>
+			<div class="col-md-1">
+			</div>
+			<div class="col-md-6">
+				<form>
+					<label for="name">name</label>
+					<br>
+					<input type="text" name="name" method="post">
+					<br>
+					<label for="mail">e-mail</label>
+					<br>
+					<input type="email" name="mail" method="post">
+					<br>
+					<label for="post">message</label>
+					<br>
+					<textarea name="message" cols="47" rows="4"></textarea>
+					<br>
+					<button class="post">send</button>
+				</form>
+			</div>
+		</div>
 	</footer>
 </body>
 </html>
