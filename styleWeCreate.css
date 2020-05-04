@@ -209,3 +209,11 @@ footer .author {
 	left: -40px;
 	z-index: -1;
 }
+
+a:hover {
+	color: #fff;
+}
+
+.button:hover {
+	background-color: #fb8097;
+}
